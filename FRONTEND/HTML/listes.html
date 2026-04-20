@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liste des hôtels</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+<div class="flex h-screen">
+  <!-- Sidebar -->
+    <aside class="w-64 bg-gray-600 text-gray-100 flex flex-col">
+  <div class="flex mt-10 mb-5 text-xl font-bold">
+    <img src="images/Link → SVG.png" alt="photo">
+    <h6 class="flex text-gray-100"> RED PRODUCT</h6>
+       </div>
+    <nav class="flex-1"> 
+        <p class="#FFFFFF mb-5">principal</p>
+      <a href="dashboard.html" class="block px-4 py-2 hover:bg-white hover:text-black">Dashboard</a>
+      <a href="listes.html" class="block px-4 py-2 hover:bg-white hover:text-black">Listes des hôtels</a>
+    </nav>
+    <div class="p-4 mb-32 border-gray-700">
+     <img src="images/div.b-t.png" alt="photo">
+    </div>
+  </aside>
+
+  <!-- Main content -->
+  <main class="flex-1  overflow-y-auto"> 
+    <div>
+    <!-- Header -->
+    <!-- <div class="">
+        <div class="flex justify-between items-center mb-1 bg-white p-1">
+        <h1 class="text-2xl font-semibold">Liste des hôtels</h1>
+        <input type="text" placeholder="Recherche" class="border">
+         <img src="images/List → Item → Link.png" alt="photo">  -->
+           <div class="flex justify-between items-center mb-1 bg-white p-1">
+      <h1 class="text-2xl font-semibold">Dashboard</h1>
+      <div class="flex justify-between  gap-4 h-15">
+          <!-- close --> 
+          <input type="text" placeholder="Recherche" class=" border rounded-lg h-7 mt-5 p-2">
+              <div class="relative w-7 h-10 m-0 mt-2 ">
+           <img src="images/List → Item → Link (1).png" alt="image" class="absolute top- left-4">
+           <img src="images/Symbol (2).png" alt="image" class="absolute bottom-0 left">
+        </div>
+        <!-- photo -->
+        <img src="images/List → Item → Link.png" alt="photo">
+      <a href="connexion.html"> <img src="images/log-out (1).png" alt="image" class="mt-4 mr-4 ml-2"></a>
+        </div>
+      </div>
+      <div class="flex bg-white p-6 justify-between">
+        <p class="text-gray-900">Hôtels 8</p>
+        <button id="openModal" class="bg-white-800 text-black-100 px-4 py-1 border px-3 py-1 rounded">+ Créer un nouveau hôtel</button>
+      </div>
+          </div>
+
+    <!-- </div> -->
+
+    <!-- Cards -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-6 p-4">
+
+      <!-- Card 1 -->
+      <div class="bg-white rounded shadow overflow-hidden">
+        <img src="images/image (1).png" class="w-full h-40 object-cover">
+        <div class="p-4">
+          <p class="flex text-xs text-gray-400 text-red-900">Boulevard Martin Luther King Dakar, 11500</p>
+          <h3 class="font-bold">Hôtel Terrou-Bi</h3>
+          <p class="text-sm text-gray-500 mt-3">25 000 XOF par nuit</p>
+        </div>
+      </div>
+      <!-- card 2 -->
+      <div class="bg-white rounded shadow overflow-hidden">
+        <img src="images/image (2).png" class="w-full h-40 object-cover">
+        <div class="p-4">
+          <p class="text-xs text-gray-400 text-red-900">Rte Almadies, Dakar</p>
+          <h3 class="font-bold">King Fahd Palace</h3>
+          <p class="text-sm text-gray-500 mt-3">20 000 XOF par nuit</p>
+        </div>
+      </div>
+      <!-- card 3 -->
+
+      <div class="bg-white rounded shadow overflow-hidden">
+        <img src="images/image (3).png" class="w-full h-40 object-cover">
+        <div class="p-4">
+          <p class="text-xs text-gray-400 text-red-900">Rte de la Corniche, Dakar 16868</p>
+          <h3 class="font-bold">Radisson Blu hotel</h3>
+          <p class="text-sm text-gray-500 mt-3">22 000 XOF par nuit</p>
+        </div>
+      </div>
+      <!-- card 4 -->
+      <div class="bg-white rounded shadow overflow-hidden">
+        <img src="images/image (4).png" class="w-full h-40 object-cover">
+        <div class="p-4">
+          <p class="text-xs text-gray-400 text-red-900">place de Indépendance, 10Rue pl 29, Dakar</p>
+          <h3 class="font-bold">Pullman Dakar teranga</h3>
+          <p class="text-sm text-gray-500 mt-3">30 000 XOF par nuit</p>
+        </div>
+      </div>
+        <!-- card 5 -->
+       <div class="bg-white rounded shadow overflow-hidden">
+        <img src="images/image (5).png" class="w-full h-40 object-cover">
+        <div class="p-4">
+          <p class="text-xs text-gray-400 text-red-900">lac Rose, Dakar</p>
+          <h3 class="font-bold">Hôtel lac Rose</h3>
+          <p class="text-sm text-gray-500 mt-3">25 000 XOF par nuit</p>
+        </div>
+      </div>
+      <!-- card 6 -->
+        <div class="bg-white rounded shadow overflow-hidden">
+        <img src="images/image (6).png" class="w-full h-40 object-cover">
+        <div class="p-4">
+          <p class="text-xs text-gray-400 text-red-900">Mbour, senegal</p>
+          <h3 class="font-bold">Hôtel Saly</h3>
+          <p class="text-sm text-gray-500 mt-3">25 000 XOF par nuit</p>
+        </div>
+      </div>
+      <!-- card 7 -->
+        <div class="bg-white rounded shadow overflow-hidden">
+        <img src="images/image (7).png" class="w-full h-40 object-cover">
+        <div class="p-4">
+          <p class="text-xs text-gray-400 text-red-900">BP64, Saly 23000</p>
+          <h3 class="font-bold">Palm Beach Resort & Spa</h3>
+          <p class="text-sm text-gray-500 mt-3">25 000 XOF par nuit</p>
+        </div>
+      </div>
+      <!-- card 8 -->
+        <div class="bg-white rounded shadow overflow-hidden">
+        <img src="images/image (8).png" class="w-full h-40 object-cover">
+        <div class="p-4">
+          <p class="text-xs text-gray-400 text-red-900">Place de l'independance, 10 Rue PL 29, Dakar</p>
+          <h3 class="font-bold">Pullman Dakar teranga</h3>
+          <p class="text-sm text-gray-500 mt-3">30 000 XOF par nuit</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+</div>
+
+
+
+        <!-- CREER UN NOUVEAU HOTEL  -->
+  <div id="modal" class="bg-white rounded-lg  shadow-sm w-1/3  fixed inset-0 bg-black/40 flex hidden items-center justify-center ml-[500px]">
+        <!-- En-tête -->
+        <div class="flex flex-col justify-center items-center p-6 ">
+          <div class="flex items-center pb-5 border-b ">
+            <button id="closeModal" class="mr-4 text-gray-600 hover:text-black">
+                <svg xmlns="http://w3.org" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                </svg>
+            </button>
+            <h1 class="text-xl font-semibold  text-gray-700">Créer un nouveau hôtel</h1>
+        </div>
+        <!-- Formulaire -->
+        <form class="space-y-3  ">
+          
+            
+            <!-- Première ligne : Nom et Adresse -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <label class="block text-sm font-medium text-gray-600 mb-2">Nom de l'hôtel</label>
+                    <input type="text" placeholder="CAP Marniane" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-600 mb-2">Adresse</label>
+                    <input type="text" placeholder="Les îles du saloum, Mar Lodj" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 decoration-solid">
+                </div>
+            </div>
+
+            <!-- Deuxième ligne : E-mail et Téléphone -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <label class="block text-sm font-medium text-gray-600 mb-2">E-mail</label>
+                    <input type="email" placeholder="information@gmail.com" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-600 mb-2">Numéro de téléphone</label>
+                    <input type="tel" placeholder="+221 77 777 77 77" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+            </div>
+
+            <!-- Troisième ligne : Prix et Devise -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <label class="block text-sm font-medium text-gray-600 mb-2">Prix par nuit</label>
+                    <input type="text" placeholder="25.000 XOF" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-600 ">Devise</label>
+                    <select class="w-full p-3 border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 appearance-none">
+                        <option>F XOF</option>
+                        <option>Euro (€)</option>
+                        <option>Dollar ($)</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Quatrième ligne : Zone d'ajout de photo -->
+            <div>
+              <label class="block text-sm font-medium text-gray-600 ">Ajouter une photo</label>
+                <div class="border-2 border-dashed border-gray-300 rounded-xl  flex flex-col items-center justify-center text-gray-400">
+                    <svg xmlns="http://w3.org" class="h-12 w-12 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                    <p class="text-sm">Ajouter une photo</p>
+                </div>
+              </div>
+
+            <!-- Bouton Enregistrer -->
+            <div class="flex justify-end mt-10 ">
+                <button type="submit" class="bg-gray-700 text-white px-8 py-3 rounded-lg font-medium hover:bg-gray-800 transition shadow-md">
+                  Enregistrer
+                </button>
+              </div>
+
+        </form>
+        </div>
+
+    </div>
+</body>
+</html>
+<script src="index.js"></script>
+</body>
+</html>

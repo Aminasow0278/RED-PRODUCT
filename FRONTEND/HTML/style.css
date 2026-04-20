@@ -1,0 +1,131 @@
+
+body{
+    background-color:#494C4F ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+section{
+    background-color:#FFFFFF;
+    max-width: 260px;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+input{
+     display: flex;
+    background-color:white;
+    padding: 3px; 
+    border: none;
+    border-bottom: 1px solid;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.checkbox{
+    display: flex;
+    color: black;
+    gap: 7px;
+}
+label{
+    margin: 0px 0 20px;
+    color: #494C4F;
+    margin-top: 15px;
+}
+button{
+    background-color: #494C4F;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+a{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: orange;
+    text-decoration: none;
+}
+.ins{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #c8c6c6;
+}
+.ins span{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.connexion{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 300px;
+    
+} 
+.button2{
+    display: flex;
+    justify-content: center;
+    background-color: #494C4F;
+    color: white;
+    border: none;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+button a{
+    color: white;
+}
+.connecter{
+    display: flex;
+    justify-content:center;
+    color: #c8c6c6;
+}
+.connecter span{
+    margin-top: 5px;
+    margin-left: 5px;
+    
+}
+.terme{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.con{
+    display: flex;
+    justify-content: center;
+    color: #c8c6c6;
+}
+.con a{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.bord{
+    width: 100%;
+}
+.but{
+    width:250px;
+    cursor: pointer;
+}
+H1{
+    display: flex;
+    justify-content: center;
+    color:whitesmoke;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 27px;
+    gap: 3px;
+}
+
+
